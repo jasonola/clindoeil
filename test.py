@@ -2,11 +2,11 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 image = Image.open("ouvert.jpg")
-image = image.resize((100,75))
+image = image.resize((200,150))
 image2 = Image.open("ferme.jpg")
-image2 = image2.resize((100,75))
+image2 = image2.resize((200,150))
 image3 = Image.open("soleil.png")
-image3 = image3.resize((100,75))
+image3 = image3.resize((200,150))
 
 root = tk.Tk()
 root.overrideredirect(True)
